@@ -1,0 +1,46 @@
+.wrapper {
+  .header {
+    text-align: center;
+    padding: 20px;
+  }
+  .cart {
+    display: flex;
+    justify-content: end;
+    padding: 10px 60px;
+  }
+}
+
+// ProductList
+.product-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 40px;
+
+  .item {
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 20px;
+
+    .row {
+      box-shadow: 0 0 4px #333;
+      padding: 20px;
+      p {
+        color: red;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+//ProductItem
+.footer-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+// ProductDetail
+.product-img {
+  text-align: center;
+}
